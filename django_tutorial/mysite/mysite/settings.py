@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig', # polls App
     'django.contrib.admin',# 管理サイト
     'django.contrib.auth', # 認証システム
     'django.contrib.contenttypes', # コンテンツタイプフレームワーク
