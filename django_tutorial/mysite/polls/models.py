@@ -23,8 +23,9 @@ class Question(models.Model):
 
 
 class Choice(models.Model):
-
-    question = models.ForeignKey(Question, on_delete=models.CASCADE) # choiseクラスをQuestionクラスに関連付け。1：1
+    
+    # choiseクラスをQuestionクラスに関連付け。1：1
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
     choice_text = models.CharField(max_length=20)
     votes = models.IntegerField(default=0) # 整数型変数
 
