@@ -19,7 +19,8 @@ class Question(models.Model):
         --------
         True : 1日以内, False: 1日以上前
         """
-        return self.pub_date >= timezone.now() - datetime.timedelta(days=1)
+        now = timezone.now()
+        return now - datetime.timedelta(days=1) <= self.pub_date <= now
 
 
 class Choice(models.Model):
