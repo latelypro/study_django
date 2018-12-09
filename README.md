@@ -14,3 +14,4 @@
 | 4.0.0   | 60        | https://docs.djangoproject.com/ja/2.1/intro/tutorial04/ |
 | 5.0.0   | 45        | https://docs.djangoproject.com/ja/2.1/intro/tutorial05/ |
 | 6.0.0   | 15        | https://docs.djangoproject.com/ja/2.1/intro/tutorial06/ |
+| 7.0.0   | 30        | https://docs.djangoproject.com/ja/2.1/intro/tutorial07/ |
