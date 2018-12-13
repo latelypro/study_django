@@ -178,3 +178,7 @@ DATABASES = {
 python manage.py makemigrations
 python manage.py migrate
 ```
+
+## Twitter風ページを作る
+
+参考：[PHP を使って Twitter 風のシステムをサイトに構築する](https://www.ibm.com/developerworks/jp/opensource/library/os-php-twitter-interface/index.html)
